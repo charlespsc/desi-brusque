@@ -4,8 +4,8 @@ Este repositório contém testes realizados para validar funcionalidades e garan
 
 ## Estrutura dos Testes
 
-- **Cobertura:** Os testes abrangem os principais fluxos, cenários críticos e casos de borda do sistema, incluindo validação de entradas, integração entre módulos e tratamento de erros.
-- **Ferramentas Utilizadas:** Foram utilizadas ferramentas como `pytest`, `unittest` e scripts personalizados para automação dos testes.
+- **Cobertura:** Os testes abrangem os arquivos dentro da pasta `tests/`.
+- **Ferramentas Utilizadas:** Foi utilizada ferramenta `pytest` para automação dos testes.
 - **Execução:** Os testes podem ser executados localmente ou em ambientes de integração contínua.
 
 ## Como Executar os Testes
@@ -26,13 +26,15 @@ Este repositório contém testes realizados para validar funcionalidades e garan
 
 ## Resultados dos Testes
 
-- Todos os testes críticos passaram com sucesso.
-- Foram identificados e corrigidos bugs relacionados a validação de dados e integração entre módulos.
-- O relatório de cobertura está disponível em `/reports/coverage.html`.
+- Rodamos um total de 2 testes com sucesso.
+- Foram inseridos erros nos testes para garantir o funcionamento adequado do sistema.
+- A cobertura dos testes é de 100%, garantindo que todas as funcionalidades foram validadas.
+- Nenhum teste foi ignorado.
 
 ## Contribuição
 
-Sinta-se à vontade para contribuir com novos testes ou melhorias. Basta abrir uma issue ou enviar um pull request.
+Sinta-se à vontade para contribuir com novos testes ou melhorias. 
+Basta abrir uma issue ou enviar um pull request.
 
 ## Licença
 
